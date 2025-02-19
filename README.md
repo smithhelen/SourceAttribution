@@ -30,7 +30,11 @@ The key contents are organised as follows:
 -   Source Attribution
     -   README.Rmd
     -   SourceAttribution.Rproj
+    -   data
+        -   SourceAttribution.Rdata
+        -   SeqDat.Rdata
     -   files
+        -   sample_run.R
     -   methods
         -   ca_unbiased.R
         -   pco.R
@@ -74,8 +78,7 @@ The directory `files` contains one file
 ### Data for exploration
 
 The data to accompany the example file is a small dataset for the
-purpose of demonstrating the methods in the paper 
-**“To CAP it Off - Encoding Categorical Variables using Canonical Analysis of Principal Coordinates”**.
+purpose of demonstrating the methods in this respository
 
 There are two files:
 1. `SeqDat.R` contains the aligned nucleotide
